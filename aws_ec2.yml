@@ -5,10 +5,10 @@ regions:
   - us-west-1
 
 filters:
-  tag:Name: bastion-instance
+  tag:Name: private-instance-2
 
 compose:
-  ansible_host: public_ip_address
+  ansible_host: private_ip_address
   ansible_user: ubuntu
   
 
