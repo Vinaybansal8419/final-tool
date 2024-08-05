@@ -11,4 +11,4 @@ compose:
 filters:
   #  All dev and QA hosts
   tag:Name:
-    - vinay
+    - bastion-instance
