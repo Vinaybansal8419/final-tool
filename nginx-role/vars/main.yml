@@ -1,0 +1,7 @@
+---
+# vars file for nginx-role
+
+nginx_packages:
+  Ubuntu: "nginx={{ nginx_version }}"
+  CentOS: "nginx-{{ nginx_version }}"
+
