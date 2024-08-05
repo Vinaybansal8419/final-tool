@@ -10,6 +10,7 @@ compose:
 
 host_key_checking: False
 ansible_user: ubuntu
+nginx_server_name: ubuntu
 ansible_ssh_private_key_file: /var/lib/jenkins/workspace/infra1/vinay1.pem
 
 filters:
