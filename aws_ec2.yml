@@ -5,12 +5,12 @@ regions:
 
 compose:
   ansible_user: "'ubuntu'"  
+  nginx_server_name: "ubuntu"
   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
   ansible_host: public_ip_address  # Use public IP address for SSH connections
 
 host_key_checking: False
 ansible_user: ubuntu
-nginx_server_name: ubuntu
 ansible_ssh_private_key_file: /var/lib/jenkins/workspace/infra1/vinay1.pem
 
 filters:
