@@ -5,7 +5,7 @@ regions:
 filters:
   tag:Name: private-instance
 compose:
-  ansible_host: public_ip_address
+  ansible_host: private_ip_address
   ansible_user: "ubuntu"
   nginx_server_name: "ubuntu"  # Ensure this variable is defined in your playbook or inventory
 host_key_checking: False
