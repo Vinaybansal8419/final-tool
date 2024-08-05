@@ -3,7 +3,7 @@ regions:
   - us-east-1
   - us-west-1
 filters:
-  tag:Name: test1
+  tag:Name: infra
 compose:
   ansible_host: public_ip_addresss
   ansible_user: "ubuntu"
