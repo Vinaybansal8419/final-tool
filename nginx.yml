@@ -2,6 +2,5 @@
 - name: nginx installation
   hosts: aws_ec2
   become: yes
-  become_method: sudo
   roles:
     - nginx-role
