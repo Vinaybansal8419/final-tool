@@ -1,6 +1,6 @@
 ---
 - name: nginx installation
-  hosts: localhost
+  hosts: aws_ec2
   become: yes
   roles:
     - nginx-role
